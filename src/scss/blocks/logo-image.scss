@@ -1,0 +1,28 @@
+.logo-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    outline: none;
+  
+    &--medium {
+      width: 120px;
+      height: 120px;
+    }
+  
+    &--small {
+      width: 90px;
+      height: 90px;
+    }
+  
+    &__image {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  
+    &--square {
+      border-radius: 0;
+    }
+  }

@@ -1,0 +1,14 @@
+.archive-link {
+    font-size: 18px;
+    color: $accent;
+    font-weight: bold;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 23px;
+        background-image: url("images/icons/follow-arrow.svg");
+        right: -45px;
+        top: 1px;
+    }
+}

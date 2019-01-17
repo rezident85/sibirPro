@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.link {
+  color: $link-color;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.competition-news {
+    position: relative;
+    
+    &__archive-link {
+        position: absolute;
+        right: 55px;
+        top: 20px;
+    }
+    &__title {
+        margin-bottom: 40px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            top: 60px;
+            background-color: rgba($color: black, $alpha: 0.1)
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 325px;
+            height: 1px;
+            left: 0;
+            top: 60px;
+            background-color: $accent;
+        }
+    }
+    &__caption {
+        display: inline-block;
+        width: 240px;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+    &__date {
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__item {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,12 @@
+.single-competition {
+    &__title {
+        text-align: center;
+    }
+    &__image {
+        height: 400px;
+        border-radius: 10px;
+        img {
+            border-radius: 10px;
+        }
+    }
+}
